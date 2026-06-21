@@ -1,0 +1,91 @@
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: var(--space-md);
+    min-height: 160px;
+    background-color: rgb(19, 26, 40);
+    
+}
+
+.icon-wrapper{
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg1{
+    background-color: var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+}
+.svg2{
+    background-color: green;
+    box-shadow: 0 0 8px green;
+}
+.svg3{
+    background-color: orange;
+    box-shadow: 0 0 8px orange;
+}
+
+.card1{
+    box-shadow: 0 10px 30px var(--accent);
+}
+
+.card2{
+    box-shadow: 0 10px 30px rgba(0, 128, 0, 0.748);
+}
+
+.card3{
+    box-shadow: 0 10px 30px rgba(255, 166, 0, 0.495);
+}
+
+
+.stats-card-elem {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.stats-card-elem p{
+    font-size: var(--fs-sm);
+    color: antiquewhite;
+}
+
+.stats-card-elem h3{
+    font-size: var(--fs-xl);
+}
+
+
+.progress-wrapper{
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+
+}
+
+.progress-line{
+    flex: 1;
+    height: 8px;
+    background-color: var(--border-color);
+    border-radius: 999px;
+    overflow: hidden;
+    box-shadow: 0 0 8px var(--border-color);
+}
+
+.progress-fill{
+    width: 64%;
+    height: 100%;
+    background-color: var(--accent);
+    border-radius: inherit;
+}
