@@ -1,7 +1,7 @@
 .focus-session{
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
     border: none;
     border-radius: var(--radius-lg);
     box-shadow: 0 10px 30px rgb(82, 4, 217);
@@ -143,5 +143,6 @@
 .pause:hover{
     box-shadow: 0 0 20px rgba(139,92,246,0.6);
 }
+
 
 
