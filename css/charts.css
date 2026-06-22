@@ -1,0 +1,227 @@
+.analytics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgb(82, 4, 217);
+    padding: var(--space-md);
+}
+
+.graph{
+    border: none;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgb(82, 4, 217);
+    padding: var(--space-md);
+}
+
+
+
+.analytics-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.charts{
+    margin-top: var(--space-xl);
+    height: 280px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+    border: none;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgb(82, 4, 217);
+}
+
+.bar-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xs);
+    flex: 1;
+}
+
+.value{
+    font-size: var(--fs-sm);
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.bar{
+    width: 24px;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    background: linear-gradient(
+        to top,
+        #7C3AED,
+        #A78BFA
+    );
+    box-shadow: 0 0 20px rgba(139,92,246,0.35);
+    transition: var(--transition);
+}
+
+.bar:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 30px rgba(139,92,246,0.6);
+}
+
+.label{
+    color: var(--text-secondary);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+}
+
+.bar-items:nth-child(1) .bar{
+    height: 60px;
+}
+
+.bar-items:nth-child(2) .bar{
+    height: 80px;
+}
+
+.bar-items:nth-child(3) .bar{
+    height: 100px;
+}
+
+.bar-items:nth-child(4) .bar{
+    height: 50px;
+}
+
+.bar-items:nth-child(5) .bar{
+    height: 70px;
+}
+
+.bar-items:nth-child(6) .bar{
+    height: 130px;
+}
+
+.bar-items:nth-child(7) .bar{
+    height: 180px;
+}
+
+.subject-card{
+    border: none;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgb(82, 4, 217);
+    width: 100%;
+    margin-left: var(--space-md);
+    height: 100%;
+    padding: var(--space-sm);
+}
+
+.subject-header{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:24px;
+    border: none;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgb(82, 4, 217);
+    padding: var(--space-md);
+}
+
+.subject-header h3{
+    font-size: var(--fs-md);
+    color: var(--text-primary);
+    font-weight:600;
+}
+
+.subject-header span{
+    color: var(--text-secondary);
+    font-size: var(--fs-sm);
+}
+
+.subject-icon{
+    color: var(--accent);
+    font-size:var(--fs-sm);
+}
+
+.subject-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    border: none;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgb(82, 4, 217);
+    padding: var(--space-xs);
+}
+
+.donut-chart{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    background:
+    conic-gradient(
+        #8B5CF6 0% 40%,
+        #34D399 40% 68%,
+        #FBBF24 68% 88%,
+        #EC4899 88% 100%
+    );
+    position:relative;
+    flex-shrink:0;
+    border: none;
+    box-shadow: 0 10px 30px rgb(82, 4, 217);
+}
+
+.donut-chart::before{
+    content:"";
+    position:absolute;
+    inset:38px;
+    border-radius:50%;
+    background:var(--bg-card);
+}
+
+.subject-list{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:var(--space-sm);
+    border: none;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgb(82, 4, 217);
+    padding: var(--space-sm);
+}
+
+.subject-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: var(--space-sm);
+}
+
+.subject-info{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:var(--text-primary);
+    font-size:var(--fs-sm);
+}
+
+.subject-time{
+    color:var(--text-secondary);
+    font-size:var(--fs-sm);
+}
+
+.dot{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+}
+
+.dsa{
+    background:#8B5CF6;
+}
+
+.react{
+    background:#34D399;
+}
+
+.dbms{
+    background:#FBBF24;
+}
+
+.project{
+    background:#EC4899;
+}

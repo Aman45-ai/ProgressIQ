@@ -213,9 +213,104 @@
                 </div>
             </section>
 
-            <section class="analytics"></section>
+            <section class="analytics">
+                <div class="graph">
+                    <div class="analytics-header">
+                        <h3>Daily Study Hours</h3>
+                        <select name="week" id="week">
+                            <option value="" selected disabled>Select Week</option>
+                            <option value="this-week">This Week</option>
+                            <option value="previous-week">Previous Week</option>
+                        </select>
+                    </div>
+                    <div class="charts">
+                        <div class="bar-items">
+                            <span class="value">2.5h</span>
+                            <div class="bar"></div>
+                            <div class="label">Mon</div>
+                        </div>
+                        <div class="bar-items">
+                            <span class="value">3.5h</span>
+                            <div class="bar"></div>
+                            <div class="label">Tues</div>
+                        </div>
+                        <div class="bar-items">
+                            <span class="value">4.0h</span>
+                            <div class="bar"></div>
+                            <div class="label">Wed</div>
+                        </div>
+                        <div class="bar-items">
+                            <span class="value">1.5h</span>
+                            <div class="bar"></div>
+                            <div class="label">Thu</div>
+                        </div>
+                        <div class="bar-items">
+                            <span class="value">2.h</span>
+                            <div class="bar"></div>
+                            <div class="label">Fri</div>
+                        </div>
+                        <div class="bar-items">
+                            <span class="value">5.5h</span>
+                            <div class="bar"></div>
+                            <div class="label">Sat</div>
+                        </div>
+                        <div class="bar-items">
+                            <span class="value">12.5h</span>
+                            <div class="bar"></div>
+                            <div class="label">Sun</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subject-card">
+                    <div class="subject-header">
+                        <span class="subject-icon">✦</span>
+                        <h3>Study Time by Subject <span>(This Week)</span></h3>
+                    </div>
+                    <div class="subject-content">
 
-            <section class="sessions"></section>
+                        <div class="donut-chart"></div>
+
+                        <div class="subject-list">
+
+                            <div class="subject-item">
+                                <div class="subject-info">
+                                    <span class="dot dsa"></span>
+                                    <span>DSA</span>
+                                </div>
+                                <span class="subject-time">7h 30m (40%)</span>
+                            </div>
+
+                            <div class="subject-item">
+                                <div class="subject-info">
+                                    <span class="dot react"></span>
+                                    <span>React</span>
+                                </div>
+                                <span class="subject-time">5h 15m (28%)</span>
+                            </div>
+
+                            <div class="subject-item">
+                                <div class="subject-info">
+                                    <span class="dot dbms"></span>
+                                    <span>College (DBMS)</span>
+                                </div>
+                                <span class="subject-time">3h 45m (20%)</span>
+                            </div>
+
+                            <div class="subject-item">
+                                <div class="subject-info">
+                                    <span class="dot project"></span>
+                                    <span>Project</span>
+                                </div>
+                                <span class="subject-time">2h 15m (12%)</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <section class="sessions"></section>
 
         </main>
 
